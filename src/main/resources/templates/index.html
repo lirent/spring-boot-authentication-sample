@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<title>Spring Login Example</title>
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<h5 class="card-header">Welcome to Spring Login</h5>
+			<div class="card-body">
+				<h5 class="card-title">Quick sample how this login works</h5>
+				<p class="card-text">This implementation is ideal to secure area of your web site or application. The password is encoded with BCrypt.</p>
+				<a href="#" class="btn btn-primary" th:href="user">User Panel</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
