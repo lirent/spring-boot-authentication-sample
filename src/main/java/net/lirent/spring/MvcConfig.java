@@ -8,8 +8,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class MvcConfig implements WebMvcConfigurer {
 
 	/**
-	 * Assists with the registration of simple automated controllers
-	 * pre-configured with status code and/or a view.
+	 * Assists with the registration of simple automated controllers pre-configured
+	 * with status code and/or a view.
 	 */
 
 	public void addViewControllers(ViewControllerRegistry registry) {
