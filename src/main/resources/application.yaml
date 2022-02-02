@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  
+spring:
+  profiles:
+  - dev
+  
+  application:
+    name: SpringBootAuthentication
+    
+
+auth:
+  security:
+  username: user
+  password: passw
