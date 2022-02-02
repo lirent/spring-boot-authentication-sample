@@ -18,6 +18,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	private String username;
 	@Value("${auth.security.password}")
 	private String password;
+	
+	
+/*
+ * Spring Security provides some configuration helpers
+ * to quickly get common authentication manager features
+ * set up in your application.
+ */
+	
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.inMemoryAuthentication()
