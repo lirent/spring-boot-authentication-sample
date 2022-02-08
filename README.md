@@ -85,4 +85,4 @@ See also the list of contributors who participated in this project.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Apache-2.0](https://github.com/lirent/SpringBootAuthentication/blob/master/LICENSE-Apache-2.0.txt)
